@@ -5,7 +5,7 @@ puzzle_input = utils.read_input('day1')
 sums = []
 for elf in puzzle_input.split('\n\n'):
     numbers = elf.strip().split()
-    sums.append(sum(map(int, numbers)))
+    sums.append(sum(int(n) for n in numbers))
 
 # part 1
 print(max(sums))
