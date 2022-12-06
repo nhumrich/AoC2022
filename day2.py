@@ -5,7 +5,10 @@ puzzle_input = utils.read_input('day2')
 points = {
     'Y': 2,
     'X': 1,
-    'Z': 3
+    'Z': 3,
+    'A': 1,
+    'B': 2,
+    'C': 3
 }
 
 
