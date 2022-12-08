@@ -2,7 +2,7 @@ import utils
 from collections import defaultdict
 from dataclasses import dataclass, field
 
-puzzle_input = utils.read_input('day7')
+puzzle_input = utils.read_input('day7', True)
 
 @dataclass
 class Directory:
